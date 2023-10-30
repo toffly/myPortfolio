@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.text-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.feature-card:hover {
+  box-shadow: 16px 10px 33px -1px rgba(84, 112, 206, 0.81);
+  -webkit-box-shadow: 16px 10px 33px -1px rgba(84, 112, 206, 0.81);
+  -moz-box-shadow: 16px 10px 33px -1px rgba(84, 112, 206, 0.81);
+}
+
+.transition {
+  transition: all 0.3s ease-in-out;
+}
+
+@layer utilities {
+  .boxWidth {
+    @apply xl:max-w-[1280px] w-full;
+  }
+  .heading2 {
+    @apply font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full;
+  }
+  .paragraph {
+    @apply font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px];
+  }
+  .flexCenter {
+    @apply flex justify-center items-center;
+  }
+  .flexStart {
+    @apply flex justify-center items-start;
+  }
+  .paddingX {
+    @apply sm:px-16 px-6;
+  }
+  .paddingY {
+    @apply sm:py-16 py-6;
+  }
+  .padding {
+    @apply sm:px-16 px-6 sm:py-12 py-4;
+  }
+  .marginX {
+    @apply sm:mx-16 mx-6;
+  }
+  .marginY {
+    @apply sm:my-16 my-6;
+  }
+}
