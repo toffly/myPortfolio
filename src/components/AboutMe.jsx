@@ -33,7 +33,7 @@ const AboutMe = () => {
         <h3 className="font-poppins font-semibold xs:text-[42px] text-[32px] text-white xs:leading-[74px] leading-[66px] w-full;">
           My Skills
         </h3>
-      <div className="flex flex-1 md:flex-row flex-col w-full justify-evenly">
+      <div className="flex md:flex-row px-10 md:gap-[50px] flex-col w-full justify-evenly">
         {skillList.map((skill, index) => (
           <FeatureCard key={skill.id} title={skill.title} content={skill.content} icon={skill.icon}/>
         ))}

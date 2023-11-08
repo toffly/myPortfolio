@@ -1,4 +1,14 @@
-import { icon1, icon2, reactIcon, tailwindIcon, htmlIcon, cssIcon, javascriptIcon, bootstrapIcon, muiIcon } from "../assets";
+import {
+  icon1,
+  icon2,
+  reactIcon,
+  tailwindIcon,
+  htmlIcon,
+  cssIcon,
+  javascriptIcon,
+  bootstrapIcon,
+  muiIcon,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -22,13 +32,10 @@ export const navLinks = [
 export const skillList = [
   {
     id: "skillList01",
-    title: "Programming Languages",
+    title: "My Main Focus",
     icon: icon1,
     content: [
-      {
-        contentName: "HTML",
-        contentIcon: htmlIcon,
-      },
+      
       {
         contentName: "CSS",
         contentIcon: cssIcon,
@@ -37,13 +44,6 @@ export const skillList = [
         contentName: "Javascript",
         contentIcon: javascriptIcon,
       },
-    ],
-  },
-  {
-    id: "skillList02",
-    title: "Front-End Technologies",
-    icon: icon2,
-    content: [
       {
         contentName: "React",
         contentIcon: reactIcon,
@@ -51,6 +51,17 @@ export const skillList = [
       {
         contentName: "Tailwind",
         contentIcon: tailwindIcon,
+      },
+    ],
+  },
+  {
+    id: "skillList02",
+    title: "Other Skills",
+    icon: icon2,
+    content: [
+      {
+        contentName: "HTML",
+        contentIcon: htmlIcon,
       },
       {
         contentName: "Mui",

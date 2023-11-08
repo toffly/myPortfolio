@@ -2,9 +2,9 @@ import { skillList } from "../constants";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
-    className={`flex flex-row p-6 rounded-[20px] ${
+    className={`flex flex-1 flex-row p-6 rounded-[20px] ${
       index !== skillList.length - 1 ? "mb-6" : "mb-0"
-    } feature-card transition`}
+    } bg-gray-900 feature-card transition`}
   >
     <div className="w-[64px] h-[64px] rounded-full flexCenter bg-dimWhite">
       <img src={icon} alt="star" className="w-[50px] h-[50%] object-contain" />

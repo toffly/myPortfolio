@@ -13,6 +13,9 @@ import cssIcon from './cssIcon.svg'
 import javascriptIcon from './javascriptIcon.svg'
 import bootstrapIcon from './bootstrapIcon.svg'
 import muiIcon from './muiIcon.svg'
+import interiorImg from './interiorImg.png'
+import nikeCloneImg from './nikeCloneImg.png'
+import travelImg from './travelImg.png'
 
 export {
   logo,
@@ -30,4 +33,7 @@ export {
   javascriptIcon,
   bootstrapIcon,
   muiIcon,
+  interiorImg,
+  nikeCloneImg,
+  travelImg,
 };

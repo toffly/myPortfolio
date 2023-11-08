@@ -25,7 +25,11 @@ const Hero = () => {
             iconURL={arrowRight}
             dropShadow="shadow-lg shadow-cyan-500/50"
           />
-          <FaGithub className="text-[28px] text-white ml-4 cursor-pointer" />
+          <a href="https://github.com/toffly" target="_blank">
+            <FaGithub
+              className="text-[28px] text-white ml-4 cursor-pointer"
+            />
+          </a>
         </div>
       </div>
       <div className="flex-1 flex flexCenter md:my-0 my-10 relative">

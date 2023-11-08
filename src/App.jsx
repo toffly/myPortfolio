@@ -15,7 +15,7 @@ const App = () => (
     <div className="bg-primary paddingX flexStart">
       <div className="boxWidth">
         <AboutMe />
-        {/* <MyWork /> */}
+        <MyWork />
         <ContactMe />
       </div>
     </div>
